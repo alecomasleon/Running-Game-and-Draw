@@ -145,6 +145,7 @@ public class RunningGame {
                 }
             }
         }catch (Exception ex){ex.printStackTrace();}
+        
 
         Action space = new SpaceAction();
         player.getInputMap().put(KeyStroke.getKeyStroke("SPACE"), "Space Action");
